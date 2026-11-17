@@ -71,7 +71,7 @@ data/
 | Validation predictions | `cross_val_predict(best_model, X_train, y_train, cv=5)` |
 | Estimator seeds | Random Forest, Decision Tree, AdaBoost: `random_state=seed`; other models are deterministic or use library defaults |
 | Preprocessing | Raw, MSC, SNV, Savitzky–Golay, 1st/2nd derivative, log 1st/2nd derivative, and MSC combinations (13 in total); Savitzky–Golay window 11, polynomial order 2 |
-| Feature scaling | Models were trained on unscaled reflectance; the Lasso variants in the last notebook cells use `StandardScaler` inside a `Pipeline` |
+| Spectral scaling | Primary analysis: per-leaf mean spectra from row-wise min–max normalised reflectance. Sensitivity analysis (thesis Section 3.4.4): unscaled mean reflectance (input files named `…WithoutScale…`), otherwise identical. The Lasso variants in the last notebook cells also use `StandardScaler` inside a `Pipeline` |
 | Metrics | R², RMSE, MAE (train, 5-fold validation, test) and RPD = SD(y_test) / RMSE(test), reported as mean ± SD over the 10 splits |
 
 Hyperparameter grids:
