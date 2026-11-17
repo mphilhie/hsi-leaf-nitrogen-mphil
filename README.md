@@ -1,5 +1,7 @@
 # Hyperspectral imaging for leaf nitrogen estimation (MPhil thesis code)
 
+[![DOI](https://zenodo.org/badge/1461447190.svg)](https://doi.org/10.5281/zenodo.24311610)
+
 Python code used in the MPhil thesis *Hyperspectral Imaging for Monitoring Crop
 Quality in Protected Cropping Systems* (Kalana M. W. Ranasinghe, Western Sydney
 University, 2026). The code extracts leaf reflectance spectra from close-range
@@ -122,7 +124,7 @@ If you use this code, please cite the thesis and this software archive (see
 
 > Ranasinghe, K. M. W. (2026). *Hyperspectral imaging pipeline for leaf nitrogen
 > estimation (MPhil thesis code)* (Version 1.0) [Computer software]. Zenodo.
-> https://doi.org/10.5281/zenodo.XXXXXXX
+> https://doi.org/10.5281/zenodo.24311611
 
 ## Acknowledgements
 

@@ -4,6 +4,7 @@ title: "Hyperspectral imaging pipeline for leaf nitrogen estimation (MPhil thesi
 version: "1.0"
 date-released: "2026-11-18"
 license: MIT
+doi: "10.5281/zenodo.24311611"
 authors:
   - family-names: Ranasinghe
     given-names: Kalana Mihiranga Wimukthi
