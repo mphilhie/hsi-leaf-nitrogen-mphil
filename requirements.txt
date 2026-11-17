@@ -1,0 +1,16 @@
+# Packages used by the notebook and scripts.
+# Versions are not pinned because the original Google Colab environment was not
+# recorded. To record the versions you run with, use: python print_environment.py
+numpy
+pandas
+scipy
+scikit-learn
+xgboost
+matplotlib
+seaborn
+statsmodels
+spectral
+scikit-image
+joblib
+openpyxl
+xlsxwriter

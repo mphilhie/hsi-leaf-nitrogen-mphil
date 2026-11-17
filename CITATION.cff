@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Hyperspectral imaging pipeline for leaf nitrogen estimation (MPhil thesis code)"
+version: "1.0"
+date-released: "2026-11-18"
+license: MIT
+authors:
+  - family-names: Ranasinghe
+    given-names: Kalana Mihiranga Wimukthi
+    affiliation: Western Sydney University
+repository-code: "https://github.com/mphilhie/hsi-leaf-nitrogen-mphil"
+keywords:
+  - hyperspectral imaging
+  - leaf nitrogen
+  - machine learning
+  - protected cropping
